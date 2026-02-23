@@ -4,6 +4,7 @@ A simple Python application that fetches and displays real-time weather informat
 
 ## Features
 
+- Secure API key management using environment variables (.env file) 
 - Get current weather for any city worldwide
 - Displays temperature in Celsius
 - Provides weather descriptions (clear sky, rain, etc.)
@@ -17,13 +18,14 @@ Before running this project, make sure you have:
 - An API key from [OpenWeatherMap](https://openweathermap.org/api) (free tier available)
 
 ## Installation
-
 pip install requests
 
-## Set up API Key
-
+## Setup environment variables
+Create a `.env` file in the root directory and add your API key:
+```env   API_KEY=your_actual_api_key_here
 Get your free API key from OpenWeatherMap
 
+## Setup API KEY
 Open Get_Data.py and replace "YOUR_API_KEY_HERE" with your actual API key
 
 ## Run the script
